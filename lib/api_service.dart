@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  final String baseUrl = 'http://172.20.23.33:3000'; // WSL IP address
+  final String baseUrl = 'http://172.20.23.33:3306'; // WSL IP address
 
   Future<List<dynamic>> fetchTransactions() async {
     try {
